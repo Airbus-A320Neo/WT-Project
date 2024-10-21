@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviation Shop - Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <section class="products">
+                <h2>Products</h2>
+                <ul id="product-list">
+                    <li>
+                        <img src="images/header.jpg" alt="Flight Simulator" style="width: 150px; height: auto;">
+                        <h3>Flight Simulator</h3>
+                        <p>Price: ₹2500</p>
+                        <button data-id="1">Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="images/a30-aviation-headset-dual-ga-plugs.jpg" alt="Aviation Headset" style="width: 150px; height: auto;">
+                        <h3>Aviation Headset</h3>
+                        <p>Price: ₹10000</p>
+                        <button data-id="2">Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="images/813ehaPDkEL._AC_UF1000,1000_QL80_.jpg" alt="Pilot's Logbook" style="width: 150px; height: auto;">
+                        <h3>Pilot's Logbook</h3>
+                        <p>Price: ₹2000</p>
+                        <button data-id="3">Add to Cart</button>
+                    </li>
+                </ul>
+            </section>
+            <section class="cart">
+                <h2>Cart</h2>
+                <ul id="cart-list"></ul>
+                <p id="total-price">Total Price: ₹0.00</p>
+                <button id="checkout-btn">Checkout</button>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Aviation Shop. All rights reserved.</p>
+        <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+    </footer>
+    <script src="shop.js"></script>
+</body>
+</html>
